@@ -1,6 +1,5 @@
+create database hostelmanagementsystem;
 use hostelmanagementsystem;
-
-select * from users;
 
 CREATE TABLE `users` (
   `id` varchar(3) NOT NULL,
@@ -23,3 +22,5 @@ INSERT INTO `users` (`id`, `name`, `father_name`, `cnic`, `date_of_birth`, `educ
 
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
+  
+  SELECT * FROM users;
